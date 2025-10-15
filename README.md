@@ -29,7 +29,7 @@ To successfully run the tests, you must have the following software/packages ins
 
 ## 🧪 Running Tests (Playwright)
 
-The tests are **data-driven**, pulling all task, column, and tag information from the `src/data/scenarios.json` file. 
+The tests are **data-driven**, pulling all task, column, and tag information from the `/data/scenarios.json` file. 
 
 ### 1. Default (Headless) Run
 
