@@ -10,6 +10,6 @@ export async function loginToDemoApp(page: Page) {
   // Submit
   await page.click('button[type="submit"]');
 
-  // Wait for post-login element (dashboard or welcome message)
+  // Wait for post-login element
   await expect(page.locator('text=Logout')).toBeVisible();
 }
